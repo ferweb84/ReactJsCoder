@@ -5,7 +5,7 @@ import cupon3 from "./img/1933f73b788eee2d2c3441d547b4975c.jpg"
 
 const Cupones =()=>{
     return(
-        <div className="container">
+        <div className="container my-5">
             <div className="row">
                 <div className="col-md-4">
                     <img src={cupon1} alt="cupon1" className="img-fluid rounded" />

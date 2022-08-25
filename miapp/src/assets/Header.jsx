@@ -3,7 +3,7 @@ import logo from "./img/Burger-King-Logo-CMS.png";
 
 const Header =()=>{
     return(
-        <div className="container">
+        <div className="container"> 
             <ul className="nav d-flex aling-items-center">
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="#"><img src={logo} width="48" alt="Burguer King"/></a>
