@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./img/Burger-King-Logo-CMS.png";
 
-const Header =()=>{
+const NavbarBurguer =()=>{
     return(
         <div className="container"> 
             <ul className="nav d-flex aling-items-center">
@@ -22,4 +22,4 @@ const Header =()=>{
     )
 }
 
-export default Header;
+export default NavbarBurguer;

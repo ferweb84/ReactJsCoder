@@ -1,5 +1,5 @@
 import './estilos.css';
-import Header from './assets/Header';
+import NavbarBurguer from './assets/NavbarBurguer';
 import Destacados from './assets/Destacados';
 import Cupones from './assets/Cupones';
 import PromosApp from './assets/PromosApp';
@@ -10,7 +10,7 @@ function App() {
   return (
     <div className='container-fluid fondo_amarillo'>
       <NavBar/>
-      <Header />
+      <NavbarBurguer />
       <hr />
       <Destacados/>
       <Cupones/>
