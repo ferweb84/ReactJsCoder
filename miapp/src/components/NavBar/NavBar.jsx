@@ -1,6 +1,8 @@
 import React from 'react'
+import {CartWidget} from './CartWidget'
 // import styled from 'styled-components'
 import './NavBar.css'
+
 
 
 
@@ -26,6 +28,7 @@ export const NavBar = () => {
       <li>Home</li>
       <li>Clientes</li>
       <li>Servicios</li>
+      <CartWidget />
     </ul>
 
   )

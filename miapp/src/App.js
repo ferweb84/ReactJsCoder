@@ -5,6 +5,7 @@ import Cupones from './assets/Cupones';
 import PromosApp from './assets/PromosApp';
 import Footer from './assets/Footer';
 import { NavBar } from './components/NavBar/NavBar';
+import { ItemListContainers } from './containers/ItemListContainers';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <NavBar/>
       <NavbarBurguer />
       <hr />
+      <ItemListContainers greeting = 'Bienvenidos a BurguerKing' />
       <Destacados/>
       <Cupones/>
       <PromosApp/>
