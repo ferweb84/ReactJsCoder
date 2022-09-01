@@ -7,6 +7,7 @@ import NavBar from './components/NavBar/NavBar';
 import ItemListContainers from './containers/ItemListContainers';
 import Lista from './components/Lista/Lista';
 import Boton  from './components/Boton/Boton';
+import ItemListContainers2 from './components/ItemListContainers/ItemListContainers2';
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <NavBar/>
       <hr />
       <ItemListContainers greeting = 'Bienvenidos a BurguerKingdom' />
+      <ItemListContainers2 greeting = 'Holaaaaaaaa'/>
       <Lista items ={Burguers} titulo={"Mi Lista"}/>
       <Boton/>
       <Destacados/>
