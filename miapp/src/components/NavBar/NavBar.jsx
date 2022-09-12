@@ -6,6 +6,7 @@ import carrito from "../../assets/img/carrito.png"
 import logoBK from "../../assets/img/logoBK.png"
 
 
+
 const NavBar = () => {
   return (
     <div className='contenedor-Navbar'>

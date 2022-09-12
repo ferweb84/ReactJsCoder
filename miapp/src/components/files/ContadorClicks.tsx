@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 
+
 export default function contadorClicks() {
   const [clicks, setClicks] = React.useState(0);
   const [fecha, setFecha] = React.useState(new Date());
